@@ -51,7 +51,7 @@ const productSchema = new mongoose.Schema(
             default: "pending"
         },
         isActive: {
-            type: Boolen,
+            type: Boolean,
             default: true
         }
     },
